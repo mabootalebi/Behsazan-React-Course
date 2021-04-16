@@ -1,0 +1,58 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#inputSection{
+    margin-top: 20px;
+}
+
+span{
+    color: #444;
+}
+
+#photosNumber{
+    height: 33px;
+    width: 150px;
+    border: solid thin #ddd;
+    border-radius: 7px;
+    text-align: center;
+    color: #444;
+}
+
+button {
+    line-height: 35px;
+    width: 100px;
+    border: solid thin #ddd;
+    border-radius: 7px;
+    margin-left: 10px;
+    color: #444;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+}
+
+.photosBackGround {
+    background-image: url('../images/background.png');
+    border: solid thin #ddd;
+    margin-top: 20px;
+}
+
+
+.photos_div{    
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;    
+    border-bottom: solid thin #ddd;
+    border-collapse: collapse;
+}
+
+.photos{
+    border-radius: 50%;
+}
+
+.photos_title{
+    display: block;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
